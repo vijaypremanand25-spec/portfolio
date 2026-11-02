@@ -15,8 +15,6 @@ export const profile = {
     'I build data-driven systems end to end, from federated edge intelligence and explainable ML pipelines to blockchain-backed identity and IoT-attested secure messaging.',
   location: 'Chennai, Tamil Nadu',
   email: 'vijay.premanand25@gmail.com',
-  phone: '+91 63799 84346',
-  phoneHref: 'tel:+916379984346',
   resumeUrl: '/Vijay_P_Resume.pdf',
   resumeFileName: 'Vijay_P_Resume.pdf',
   githubUser: 'vijaypremanand25-spec',

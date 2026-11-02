@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { LuArrowUpRight, LuCheck, LuCode, LuCopy, LuGithub, LuLinkedin, LuMail, LuMapPin, LuPhone, LuSend } from 'react-icons/lu';
+import { LuArrowUpRight, LuCheck, LuCode, LuCopy, LuGithub, LuLinkedin, LuMail, LuMapPin, LuSend } from 'react-icons/lu';
 import { profile } from '../data/profile';
 import { RevealGroup, Section, stagger, trackSpotlight } from './ui';
 
@@ -108,17 +108,6 @@ export function Contact() {
                   {copied ? <LuCheck size={13} aria-hidden="true" /> : <LuCopy size={13} aria-hidden="true" />}
                   {copied ? 'Copied' : 'Copy address'}
                 </button>
-              </span>
-            </li>
-            <li className="flex items-start gap-4">
-              <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl border border-line text-cyan">
-                <LuPhone size={20} aria-hidden="true" />
-              </span>
-              <span>
-                <span className="block text-sm text-muted">Phone</span>
-                <a href={profile.phoneHref} className="font-medium hover:text-cyan">
-                  {profile.phone}
-                </a>
               </span>
             </li>
             <li className="flex items-start gap-4">
